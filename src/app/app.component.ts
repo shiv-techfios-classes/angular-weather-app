@@ -11,9 +11,9 @@ import { Observable ,delay } from 'rxjs';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'weather-app';
+  title = 'Weather App';
   cities = ['dubai', 'london', 'San Fransico', 'California', 'San Jose', '']
-  city= this.cities[4];
+  city= this.cities[3];
   response:any;
   message= '';
  
